@@ -1,0 +1,16 @@
+/*RESETEAMOS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-blue: #044E5F;
+    --color-blue-sky: #009EC0;
+    --color-dark-light: #333333;
+    --color-rousel:#DE5890;
+    --color-green:#08AC18;
+    --color-blue-dark:#100E6F;
+    --color-white:#fff;
+
+}
