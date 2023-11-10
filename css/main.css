@@ -14,3 +14,91 @@
     --color-white:#fff;
 
 }
+
+.mainHeader{
+    width: 100%;
+    height: 6.5rem;
+    position: sticky;
+    top: 0;
+    border-bottom: 3px var(--color-blue) solid;
+}
+
+.mainNav{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.navLogo{
+    width: 25%;
+    height: 100%;
+    line-height: 7.875rem; /*110px*/
+}
+
+.navLogo img{
+    width: 100%;
+    height: 50%;
+    
+    
+}
+
+
+.navLinks{
+    width: 55%;
+    height: 100%;
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+
+.navLinks a{
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--color-dark-light);
+    text-decoration: none;
+}
+
+.navLinks a i{
+    padding: 1rem;
+    
+}
+.navTheme{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/*EMPEZAMOS LOS ESTILOS DE LA BARRA DE NAVEGACION REDES SOCIALES*/
+.main-div-redes{
+    width: 100%;
+    height: 2.525rem; /*50px*/
+   
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 101px;
+}
+
+.redes{
+    width: 25%;
+    height: 100%;
+    background-color: var(--color-white);
+    position: relative;
+    bottom: 25px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+.redes a{
+    cursor: pointer;
+}
+.redes a img{
+  
+    height: 100%;
+}
