@@ -15,99 +15,265 @@
 
 }
 
-.mainHeader{
-    width: 100%;
-    height: 6.5rem;
-    position: sticky;
-    top: 0;
-    border-bottom: 3px var(--color-blue) solid;
-}
 
-.mainNav{
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-}
 
-.navLogo{
-    width: 25%;
-    height: 100%;
-    line-height: 7.875rem; /*110px*/
-}
+/* MEDIA SCREEN PARA PANTALLAS LAPTOPS */
+@media (min-width: 1100px) and (max-width: 1700px) { 
+   /*TEMA OSCURO*/
+        body{
+            transition: .5s ease all;
 
-.navLogo img{
-    width: 100%;
-    height: 50%;
+        }
+        body.dark{
+            transition: .5s ease all;
+            background-color: #181818;
+        } 
+        body.dark header{
+            background-color: var(--color-dark-light);
+            border-bottom: 3px var(--color-white) solid;
+        }
+        body.dark .navLinks a{
+            color: var(--color-white);
+        }
+        body.dark .navTheme a {
+            color: var(--color-white);
+        }
+        body.dark .redes{
+            background-color: var(--color-dark-light);
+        }
+   
+   
+   
+   
+    .mainHeader{
+        width: 100%;
+        height: 6.5rem;
+        position: sticky;
+        top: 0;
+        border-bottom: 3px var(--color-blue) solid;
+    }
+    
+    .mainNav{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .navLogo{
+        width: 25%;
+        height: 100%;
+        line-height: 7.875rem; /*110px*/
+    }
+    
+    .navLogo img{
+        width: 100%;
+        height: 50%;
+        
+        
+    }
     
     
-}
-
-
-.navLinks{
-    width: 55%;
-    height: 100%;
-    display: flex;
-   
-    justify-content: space-evenly;
-}
-
-.navLinks a{
-    padding: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: var(--color-dark-light);
-    text-decoration: none;
-}
-
-.navLinks a i{
-    padding: 1rem;
+    .navLinks{
+        width: 55%;
+        height: 100%;
+        display: flex;
+       
+        justify-content: space-evenly;
+    }
     
-}
-.navTheme{
-    width: 25%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    cursor: pointer;
-   
-}
-.navTheme a{
-   
-    position:   absolute;
+    .navLinks a{
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: var(--color-dark-light);
+        text-decoration: none;
+    }
+    
+    .navLinks a:active{
+        color: rebeccapurple;
+    }
+    
+    .navLinks a i{
+        padding: 1rem;
+        
+    }
+    .navTheme{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        cursor: pointer;
+       
+    }
+    .navTheme a{
+       
+        position:   absolute;
+    }
+    
+    .navTheme_disabled{
+        display: none;   
+    }
+    
+    /*EMPEZAMOS LOS ESTILOS DE LA BARRA DE NAVEGACION REDES SOCIALES*/
+    .main-div-redes{
+        width: 100%;
+        height: 2.525rem; /*50px*/
+       
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        top: 101px;
+    }
+    
+    .redes{
+        width: 25%;
+        height: 100%;
+        background-color: var(--color-white);
+        position: relative;
+        bottom: 25px;
+        display: flex;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    .redes a{
+        cursor: pointer;
+    }
+    .redes a img{
+      
+        height: 100%;
+    }
+    
+    /*contenedor generar*/
+    .sect-general{
+        width: 100%;
+        height: 80vh;
+        background-color: #044E5F;
+    }
+
+
+
 }
 
-.navTheme_disabled{
-    display: none;   
-}
-
-/*EMPEZAMOS LOS ESTILOS DE LA BARRA DE NAVEGACION REDES SOCIALES*/
-.main-div-redes{
-    width: 100%;
-    height: 2.525rem; /*50px*/
-   
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    top: 101px;
-}
-
-.redes{
-    width: 25%;
-    height: 100%;
-    background-color: var(--color-white);
-    position: relative;
-    bottom: 25px;
-    display: flex;
-    justify-items: center;
-    justify-content: space-evenly;
-}
-.redes a{
-    cursor: pointer;
-}
-.redes a img{
+@media (min-width: 0px) and (max-width: 550px) { 
   
-    height: 100%;
+    /*TEMA OSCURO*/
+    body{
+        transition: .5s ease all;
+
+    }
+    body.dark{
+        transition: .5s ease all;
+        background-color: #181818;
+    } 
+    body.dark header{
+        background-color: var(--color-dark-light);
+        border-bottom: 3px var(--color-white) solid;
+    }
+    body.dark .navLinks a{
+        color: transparent;
+        overflow: hidden;
+    }
+
+    body.dark .navLinks a i{
+        color: var(--color-white);
+    }
+  
+  
+    .mainHeader{
+        width: 100%;
+        height: 6.5rem;
+        border-top: 3px var(--color-blue) solid;
+        
+        position: fixed;
+        bottom: 0;
+
+    }
+    .mainNav{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .navLogo{
+        width: 25%;
+        height: 100%;
+       
+        line-height: 7.875rem; /*110px*/
+    }
+    .navLogo img{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        line-height: 6.5rem;
+         
+    }
+    .navLinks{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        
+    }
+    .navLinks a{
+        padding: 1rem;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        color: transparent;
+        overflow: hidden;
+        
+      
+    }
+    .navLinks a i{
+        position: absolute;
+        font-size: 2rem;
+        color: #181818;
+        cursor: pointer;
+        text-align: center;
+        
+    }
+
+    .navTheme{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        cursor: pointer;
+       
+    }
+    .navTheme a{
+       
+        position:   absolute;
+    }
+    .navTheme_disabled{
+        display: none;   
+    }
+
+      /*EMPEZAMOS LOS ESTILOS DE LA BARRA DE NAVEGACION REDES SOCIALES*/
+      .main-div-redes{
+        width: 100%;
+        height: 2.525rem; /*50px*/
+       
+        display: flex;
+        position: fixed;
+        bottom: 8.525rem; /*50px*/
+        left: 1.500rem;
+    }
+
+    .redes a{
+        padding: 0.3rem;
+    }
+
+
+    
+    
 }
+
+

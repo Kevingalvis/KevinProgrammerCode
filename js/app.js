@@ -20,6 +20,7 @@ $btnTheme.forEach((btnTheme) => {
             case 'icon-theme-moon':
                 document.getElementById('switch-theme-sun').classList.toggle('navTheme_disabled');
                 document.getElementById('switch-theme').classList.remove('navTheme_disabled');
+                document.body.classList.remove('dark');
                 break;
             
             case 'icon-theme-sun':
@@ -29,6 +30,7 @@ $btnTheme.forEach((btnTheme) => {
             */
                 document.getElementById('switch-theme').classList.toggle('navTheme_disabled');
                 document.getElementById('switch-theme-sun').classList.remove('navTheme_disabled');
+                document.body.classList.toggle('dark');
             break;
         
             default:
@@ -38,5 +40,7 @@ $btnTheme.forEach((btnTheme) => {
 
     });
 });
+
+
 
 
