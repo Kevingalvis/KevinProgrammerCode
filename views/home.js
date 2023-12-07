@@ -38,7 +38,7 @@ export class selectHome extends HTMLElement{
                 }
 
                 .text-home h1{
-                    font-size:5em;
+                    font-size:4em;
                     margin:0;
                 }
                 .text-home h2{
