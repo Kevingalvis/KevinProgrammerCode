@@ -78,7 +78,7 @@ export class selectHome extends HTMLElement{
                    
                 }
                 .img-home img{
-                    width:60%;
+                    width:90%;
                     height:100%;
                     filter: drop-shadow(5px 5px 10px #000000);
 

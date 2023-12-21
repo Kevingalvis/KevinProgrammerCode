@@ -12,6 +12,7 @@ export class selectPerfil extends HTMLElement{
                 .cont-perfil{
                     width:100%;
                     height:auto;
+                    padding-bottom:50px;
                    
                   
                 
@@ -96,14 +97,13 @@ export class selectPerfil extends HTMLElement{
 
                 .art-skills{
                     width:90%;
-                    height:auto;
-                    background: #000;
+                    display: flex;
                     margin:0 auto;
                 }
                 .skills{
-                    width:50%;
-                    height:100%;
-                    background:red;
+                    width:70%;
+                  
+                   
                     display:flex;
                     justify-content:space-around;
                     flex-wrap:wrap;
@@ -113,7 +113,7 @@ export class selectPerfil extends HTMLElement{
                
                 .card-skills{
                     width:45%;
-                    height:auto;
+                  
                     background: #fff;
                     border-radius: 25px;
                     margin: 10px 10px;
@@ -124,20 +124,32 @@ export class selectPerfil extends HTMLElement{
                 }
                 .card-header{
                     width:100%;
-                    padding:15px;
+                    height:20%;
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:center;
                     background:#009EC0;
                     text-align:center;
                     font: 12px 'trebuchet MS', 'lucida sans';
                 }
+                .estudio{
+                    position:relative;
+                    top:15px
+                }
+                .p-estudio{
+                    font-size:1.2em;
+                }
                 .card-body{
                     width:90%;
+                    height:auto;
                     padding:15px;
                     display:flex;
+                    justify-content:center;
                     flex-wrap:wrap;
 
                 }
                 .skills-v1{
-                    width:100%;
+                    width:70%;
                 }
 
                 #lista5 {
@@ -184,8 +196,50 @@ export class selectPerfil extends HTMLElement{
                     
                 }
 
+                .skills2{
+                    width:50%;
+                    height:auto;
+                    display:flex;
+                    justify-content:space-around;
+                    flex-wrap:wrap;
+                }
+                .skills-card2{
+                    width:100%;
+                    height:auto;
+                    background: #fff;
+                    border-radius: 25px;
+                    margin: 10px 10px;
+                    overflow:hidden;
+                    filter: drop-shadow(5px 5px 5px #000000);
+                }
 
-            </style>
+                .card-estudio{
+                    width:100%;
+                    height:25%;
+                    margin: 5px 0;
+                    display:flex;
+                    flex-wrap:wrap;
+                    justify-content:center;
+                   
+                }         
+
+                .card-estudio img{
+                    width:15%;
+                    filter: drop-shadow(5px 5px 5px #000000);
+                }
+                .card-estudio h2{
+                    width:70%;
+                    text-align:center;
+                    font: 15px 'trebuchet MS', 'lucida sans';
+
+
+                }
+                
+                
+                
+                
+                
+                </style>
             
 
            <section class="cont-perfil">
@@ -241,7 +295,6 @@ export class selectPerfil extends HTMLElement{
                                     <li><span class="ec ec-ear"></span>Escucha Activa</li>
                                     <li><span class="ec ec-memo"></span>Planificación y organización</li>
                                     <li><span class="ec ec-hourglass-flowing-sand"></span>Gestión del tiempo</li>
-                                    <li><span class="ec ec-speaking-head"></span>Comunicación efectiva</li>
                                 </ol>
                             </div>
                         </div>
@@ -286,6 +339,50 @@ export class selectPerfil extends HTMLElement{
                             </div>
                         </div>
                     </div>
+
+                    <div class="skills2">
+                         <div class="card-skills skills-card2">
+                            <div class="card-header">
+                                <h2 class="estudio">Estudios/Cursos Certificados</h2>
+                                <p class="p-estudio">Cada Dia siendo mejor </p>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-estudio">
+                                    <img src="../../assets/logo/Sena.svg" />
+                                    <h2>Tecnologo En Desarrollo De Software <br> En Proceso</h2>
+                                </div>
+
+                                <div class="card-estudio">
+                                    <img src="../../assets/logo/Sena.svg" />
+                                    <h2>Tecnico En ProgramacionSoftware<br>2016</h2>
+                                </div>
+                                <div class="card-estudio">
+                                    <img src="../../assets/logo/linkedin.svg" />
+                                    <h2>Scrum Esencial/Avanzado<br>2023</h2>
+                                </div>
+                                <div class="card-estudio">
+                                    <img src="../../assets/logo/udemy.svg" />
+                                    <h2>React<br>2023</h2>
+                                </div>
+                                <div class="card-estudio">
+                                    <img src="../../assets/logo/udemy.svg" />
+                                    <h2>JavaScript<br>2023</h2>
+                                </div>
+                                <div class="card-estudio">
+                                    <img src="../../assets/logo/udemy.svg" />
+                                    <h2>HTML5<br>2023</h2>
+                                </div>
+                                <div class="card-estudio">
+                                    <img src="../../assets/logo/udemy.svg" />
+                                    <h2>Figma Diseño UX/UI<br>2023</h2>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+
+
                 </article>
 
               

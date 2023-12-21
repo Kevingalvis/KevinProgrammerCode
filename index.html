@@ -12,9 +12,37 @@
         <barra-navegacion></barra-navegacion>
         <barra-redes></barra-redes>
         <div id="app">
-            <template-perfil></template-perfil>
-            
+            <template-home></template-home>
         </div>    
+
+
+        <div class="modal modal-disabled" id="modal">
+            <form action="https://formsubmit.co/kevin.davidtt@gmail.com" class="formulario" method="POST">
+                <div class="header-form">
+                    <img src="assets/logo/logoColor.svg" alt="logo">
+                    <p>No dudes en enviarme un mensaje estoy dispuesto a ofrecer mi granito conocimiento para ayudarte a realizar esas ideas en realidad</p>
+                </div>
+                <div class="body-form">
+                    <label for="">Email</label>
+                    <input type="email" name="email" id="" placeholder="joe@email.com"  required>
+
+                    <label for="">Nombre Completo</label>
+                    <input type="text" name="user" id=""  placeholder="Kevin David Zambran Galvis" required >
+                   
+                    <label for="">Asunto</label>
+                    <input type="text" name="asunto" id="" pattern="[a-zA-Z]+" placeholder="Reclutamiento" required>
+                   
+                    <label for="">Mensaje</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Reclutamiento" required></textarea>
+                </div>
+                <div class="footer-form">
+                    <button type="submit">Enviar</button>
+                    <button id="form-btn-cancelar">Cancelar</button>
+                </div>
+
+            </form>
+
+        </div>
         
      
         <script src="https://kit.fontawesome.com/1b166ddc73.js" crossorigin="anonymous"></script>
