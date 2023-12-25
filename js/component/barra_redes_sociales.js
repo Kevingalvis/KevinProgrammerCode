@@ -38,9 +38,9 @@ export class barraRedes extends HTMLElement{
 
             <div class="main-div-redes ">
                 <nav class="redes">
-                    <a><img src="assets/logo/WhatsApp.svg" alt="WhatsApp"></a>
-                    <a><img src="assets/logo/Facebook.svg" /></a>
-                    <a><img src="assets/logo/Instagram.svg" /></a>
+                    <a href="https://wa.link/det6il" target="_blank" ><img src="assets/logo/WhatsApp.svg" alt="WhatsApp" ></a>
+                    <a href="https://www.facebook.com/developerkevin" target="_blank" ><img src="assets/logo/Facebook.svg" /></a>
+                    <a href="https://www.instagram.com/_kevin.galvis_/" target="_blank" ><img src="assets/logo/Instagram.svg" /></a>
                    
                 </nav>
         
