@@ -206,13 +206,13 @@ export class selectProjecto extends HTMLElement{
                         
                         </div>
                         <div class="card-img">
-                            <img src="../../assets/logo/noDisponibleMovil.svg" />
+                            <img src="assets/logo/noDisponibleMovil.svg" />
                         </div>
                     <div>
 
                     <div class="cont-projecto">
                     <div class="card-img">
-                    <img src="../../assets/logo/noDisponibleMovil2.svg" />
+                    <img src="assets/logo/noDisponibleMovil2.svg" />
                     </div>
 
                     <div class="card-text">

@@ -258,7 +258,7 @@ export class selectPerfil extends HTMLElement{
                     <div class="perfil-datos">
                        
                         <figure class="img-datos">
-                             <img src="../../assets/logo/KevinGalvis.png" />   
+                             <img src="assets/logo/KevinGalvis.png" />   
                              <span>Programador Junior<span>
                         </figure>
 
@@ -305,35 +305,35 @@ export class selectPerfil extends HTMLElement{
                             </div>
                             <div class="card-body">
                                 <div class="mini-card">
-                                     <img src="../../assets/logo/Javascript.svg" />
+                                     <img src="assets/logo/Javascript.svg" />
                                      <p>JavaScript</p>   
                                 </div>
                                 <div class="mini-card">
-                                     <img src="../../assets/logo/Css3.svg" />
+                                     <img src="assets/logo/Css3.svg" />
                                      <p>Css3/Flexbox</p>   
                                 </div>
                                  <div class="mini-card">
-                                     <img src="../../assets/logo/Git.svg" />
+                                     <img src="assets/logo/Git.svg" />
                                      <p>Git</p>   
                                 </div>
                                 <div class="mini-card">
-                                     <img src="../../assets/logo/GitHub.svg" />
+                                     <img src="assets/logo/GitHub.svg" />
                                      <p>GitHub</p>   
                                 </div>
                                 <div class="mini-card">
-                                     <img src="../../assets/logo/Html5.svg" />
+                                     <img src="assets/logo/Html5.svg" />
                                      <p>Html5</p>   
                                 </div>
                                 <div class="mini-card">
-                                     <img src="../../assets/logo/React.svg" />
+                                     <img src="assets/logo/React.svg" />
                                      <p>React</p>   
                                 </div>
                                 <div class="mini-card">
-                                     <img src="../../assets/logo/Webcomponents.svg" />
+                                     <img src="assets/logo/Webcomponents.svg" />
                                      <p>web Componets</p>   
                                 </div>
                                 <div class="mini-card">
-                                     <img src="../../assets/logo/figma-icon.svg" />
+                                     <img src="assets/logo/figma-icon.svg" />
                                      <p>Figma</p>   
                                 </div>
                             </div>
@@ -348,32 +348,32 @@ export class selectPerfil extends HTMLElement{
                             </div>
                             <div class="card-body">
                                 <div class="card-estudio">
-                                    <img src="../../assets/logo/Sena.svg" />
+                                    <img src="assets/logo/Sena.svg" />
                                     <h2>Tecnologo En Desarrollo De Software <br> En Proceso</h2>
                                 </div>
 
                                 <div class="card-estudio">
-                                    <img src="../../assets/logo/Sena.svg" />
+                                    <img src="assets/logo/Sena.svg" />
                                     <h2>Tecnico En ProgramacionSoftware<br>2016</h2>
                                 </div>
                                 <div class="card-estudio">
-                                    <img src="../../assets/logo/linkedin.svg" />
+                                    <img src="assets/logo/linkedin.svg" />
                                     <h2>Scrum Esencial/Avanzado<br>2023</h2>
                                 </div>
                                 <div class="card-estudio">
-                                    <img src="../../assets/logo/udemy.svg" />
+                                    <img src="assets/logo/udemy.svg" />
                                     <h2>React<br>2023</h2>
                                 </div>
                                 <div class="card-estudio">
-                                    <img src="../../assets/logo/udemy.svg" />
+                                    <img src="assets/logo/udemy.svg" />
                                     <h2>JavaScript<br>2023</h2>
                                 </div>
                                 <div class="card-estudio">
-                                    <img src="../../assets/logo/udemy.svg" />
+                                    <img src="assets/logo/udemy.svg" />
                                     <h2>HTML5<br>2023</h2>
                                 </div>
                                 <div class="card-estudio">
-                                    <img src="../../assets/logo/udemy.svg" />
+                                    <img src="assets/logo/udemy.svg" />
                                     <h2>Figma Diseño UX/UI<br>2023</h2>
                                 </div>
                             </div>

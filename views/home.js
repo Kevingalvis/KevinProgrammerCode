@@ -96,19 +96,19 @@ export class selectHome extends HTMLElement{
                     
                     </div>
                     <div class="icon-skills">
-                        <img src="../../assets/logo/Javascript.svg" />    
-                        <img src="../../assets/logo/Webcomponents.svg" />    
-                        <img src="../../assets/logo/React.svg" />    
-                        <img src="../../assets/logo/Html5.svg" />    
-                        <img src="../../assets/logo/Css3.svg" />    
-                        <img src="../../assets/logo/GitHub.svg" />    
-                        <img src="../../assets/logo/Git.svg" />    
+                        <img src="assets/logo/Javascript.svg" />    
+                        <img src="assets/logo/Webcomponents.svg" />    
+                        <img src="assets/logo/React.svg" />    
+                        <img src="assets/logo/Html5.svg" />    
+                        <img src="assets/logo/Css3.svg" />    
+                        <img src="assets/logo/GitHub.svg" />    
+                        <img src="assets/logo/Git.svg" />    
                             
                         
                     </div>
 
                     <div class="img-home">
-                        <img src="../../assets/logo/KevinGalvis.png" />   
+                        <img src="assets/logo/KevinGalvis.png" />   
                     </div>
                     
                 </article>
