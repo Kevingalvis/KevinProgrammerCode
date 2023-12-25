@@ -89,7 +89,7 @@ export class barraNavegacion extends HTMLElement{
                 <nav class="mainNav">
                     
                     <div class="navLogo">
-                        <img src="https://github.com/Kevingalvis/KevinProgrammerCode/blob/master/assets/logo/logoColor.svg" alt="logoColor "/>
+                        <img src="assets/logo/logoColor.svg" alt="logoColor "/>
                     </div>
                     <div class="navLinks" id="linksNav">
                         <a href="#"><i class="fa-solid fa-house"></i>Home</a>
